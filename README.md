@@ -1,4 +1,4 @@
-This project uses Convolution Neural Network to train a model which classifies chest scan images of Covid, Viral Pneumonia, and Normal people. The original images are run through the code and the result is recorded. Then the images are resized so that a discrete Fourier Transform can be completed on them. Once the Transform is done, the transformed images are run through the original image code.
+This project uses Convolution Neural Network to train a model which classifies chest scan images of Covid, Viral Pneumonia, and Normal patients. The original images are run through the code and the result is recorded. Then the images are resized so that a discrete Fourier Transform can be completed on them. Once the Transform is done, the transformed images are run through the original image code.
 
 # HasanOmarE314MedicalImaging
 The demonstration video is shown in the Google Drive link below:
