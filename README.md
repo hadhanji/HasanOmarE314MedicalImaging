@@ -1,3 +1,5 @@
+This project uses Convolution Neural Network to train a model which classifies chest scan images of Covid, Viral Pneumonia, and Normal people. The original images are run through the code and the result is recorded. Then the images are resized so that a discrete Fourier Transform can be completed on them. Once the Transform is done, the transformed images are run through the original image code.
+
 # HasanOmarE314MedicalImaging
 The demonstration video is shown in the Google Drive link below:
 https://drive.google.com/file/d/1cv-Qx14Ul3evHhwIjiPPO5_xEsx8AQ6O/view?usp=sharing
@@ -22,7 +24,10 @@ The “untitled0.py” file is the code run on the original images with no Fouri
 
 “FourierUntitled0” is the same as untitled0 but changed so that it would work for our purposes.
 
+Moving Forward:
+
 The Fourier Results are not what we expected them to be and that is likely due to the fact that the transform ignored the phase and is only concerned with the magnitude. A next step would likely be to somehow include the phase of the DTFT in the output images instead of just the magnitude. This would likely get better results.
+
 Another step would be to somehow combine both the DTFT and the original images as this could yield a higher accuracy than both of them separately. 
 
 Contributions:
